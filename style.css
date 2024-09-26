@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.navimg{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 20px 90px;
+}
+
+.nav_links{
+    display: flex;
+    list-style: none;
+    margin: 30px 10%;
+}
+
+.nav_links li{
+    display: flex;
+    padding: 0 20px;
+}
+
+li, a, button {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.hero{
+    margin: 0 90px;
+}
+
+.heroimg{
+    width: 1240px;
+    height: 400px;
+}
+
+.cta-area {
+    text-align: center;
+    margin: 12px;
+}
+
+.ctabtn{
+    background-color: white;
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.featured-post{
+    margin: 90px;
+}
+
+.fhead{
+    text-align: center;
+}
+
+.f1, .f2, .f3 {
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+}
+
+
+.f-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
+
+.fp {
+    margin: 30px;
+}
+
+.categories{
+    text-align: center;
+}
+
+.Cimg{
+    width: 150px;
+    height: 150px;
+}
+
+.cards1, .cards2{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 90px 240px;
+}
+
+.class1, .class2, .class3, .class4, .class5, .class6{
+    display: block;
+    text-align: center;
+}
+
+.footer{
+    margin: 20px;
+    display: flex;
+}
+
+.footerlinks li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.pfoot{
+    margin-right: auto;
+}
